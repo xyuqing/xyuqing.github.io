@@ -1,0 +1,21 @@
+!location = "../research"
+!name = "./index.html"
+
+!inserthtml = "./head.html"
+<body>
+    !inserthtml = "./header.html"
+    <main>
+    <div class="container">
+      !inserthtml = "./profile-sidebar.html"
+      <div class="maincontent">
+        <section id="about">
+          <h1>Publications</h1>
+          <p>
+            Coming soon! Please see my <a href="https://scholar.google.com/citations?user=xNMw5dIAAAAJ&hl=en">Google Scholar</a>
+          </p>
+          !inserthtml = "../bibliography/bibliography.html"
+        </section>
+      </div>
+    </div>
+  </main>
+</body>

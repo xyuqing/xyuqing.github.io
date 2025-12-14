@@ -1,0 +1,27 @@
+!location = "../"
+!name = "./index.html"
+
+!inserthtml = "./head.html"
+<body>
+    !inserthtml = "./header.html"
+    <main>
+    <div class="container">
+      !inserthtml = "./profile-sidebar.html"
+      <div class="maincontent">
+        <section id="about">
+          <h1>About</h1>
+          <p>
+            I am a 4th year Ph.D. student in EECS at MIT exploring the theoretical limits of equivariant neural networks. I am fortunate to be advised by Prof. Tess Smidt in the <a href="https://atomicarchitects.github.io">Atomic Architects</a> group.
+          </p>
+          <p>
+            I previously completed my B.S. in Physics and Math at MIT.
+          </p>
+          <p>
+            My work has been supported by the National Science Foundation Graduate Research Fellowship and the MIT Schwarzman College of Computing Fellowship.
+          </p>
+          <h2>This site is still under construction</h2>
+        </section>
+      </div>
+    </div>
+  </main>
+</body>

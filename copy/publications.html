@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Academic homepage" />
+    <meta name="author" content="YuQing Xie">
+  <title>YuQing Xie</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <strong>YuQing Xie</strong>
+      <div>
+        <a href="./index.html">About</a>
+        <a href="./publications.html">Publications</a>
+        <a href="./documents/CV.pdf">CV</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="profile-sidebar">
+        <h1>YuQing Xie</h1>
+        <img src="images/profile.jpg" alt="Profile picture" width="100%"/>
+        <a href="mailto:xyuqing@mit.edu"> Email</a>
+        <a href="https://scholar.google.com/citations?user=xNMw5dIAAAAJ&hl=en"> Google Scholar</a>
+        <a href="https://orcid.org/0000-0002-9949-3700"> ORCID</a>
+        <a href="https://github.com/xyuqing"> Github</a>
+      </div>
+      <div class="maincontent">
+        <section id="about">
+          <h1>Publications</h1>
+          <p>
+            Coming soon! Please see my <a href="https://scholar.google.com/citations?user=xNMw5dIAAAAJ&hl=en">Google Scholar</a>
+          </p>
+
+          <script>
+            fetch("./bibliography/bibliography.html")
+            .then(r => r.text())
+            .then(t => {
+                console.log("FETCHED:", t);
+                document.getElementById("test").innerHTML = t;
+            })
+            .catch(e => console.error("FETCH ERROR:", e));
+            </script>
+        
+<div><a href="https://doi.org/10.48550/arXiv.2510.03335"><em class="papertitle">Matching the Optimal Denoiser in Point Cloud Diffusion with (Improved) Rotational Alignment</em></a><br><span class="paperauthors">Ameya Daigavane, <strong>YuQing Xie</strong>, Bodhi Vani, Saeed Saremi, Joseph Kleinhenz, et al.</span><br><em>arXiv preprint arXiv:2510.03335</em>, 2025</div><br>
+<div><a href="http://dx.doi.org/10.1561/2200000115"><em class="papertitle">Artificial intelligence for science in quantum, atomistic, and continuum systems</em></a><br><span class="paperauthors">Xuan Zhang, Limei Wang, Jacob Helwig, Youzhi Luo, Cong Fu, et al.</span><br><em>Foundations and Trends® in Machine Learning</em>, 2025</div><br>
+<div><a href="https://openreview.net/forum?id=rH4aGTL4jY"><em class="papertitle">A Tale of Two Symmetries: Exploring the Loss Landscape of Equivariant Models</em></a><br><span class="paperauthors"><strong>YuQing Xie</strong>, Tess Smidt</span><br><em>The Thirty-ninth Annual Conference on Neural Information Processing Systems</em>, 2025</div><br>
+<div><a href="https://openreview.net/forum?id=EvIwwGYTLc"><em class="papertitle">The Price of Freedom: Exploring Expressivity and Runtime Tradeoffs in Equivariant Tensor Products</em></a><br><span class="paperauthors"><strong>YuQing Xie</strong>, Ameya Daigavane, Mit Kotak, Tess Smidt</span><br><em>Forty-second International Conference on Machine Learning</em>, 2025</div><br>
+<div><a href="https://openreview.net/forum?id=tHKH4DNSR5"><em class="papertitle">Equivariant Symmetry Breaking Sets</em></a><br><span class="paperauthors"><strong>YuQing Xie</strong>, Tess Smidt</span><br><em>Transactions on Machine Learning Research</em>, 2024</div><br>
+<div><a href="https://doi.org/10.1063/5.0062985"><em class="papertitle">Quasinormal modes of small Schwarzschild--de Sitter black holes</em></a><br><span class="paperauthors">Peter Hintz, <strong>YuQing Xie</strong></span><br><em>Journal of Mathematical Physics</em>, 2022</div><br>
+<div><a href="https://doi.org/10.1103/PhysRevD.104.064037"><em class="papertitle">Quasinormal modes and dual resonant states on de Sitter space</em></a><br><span class="paperauthors">Peter Hintz, <strong>YuQing Xie</strong></span><br><em>Physical Review D</em>, 2021</div><br>
+
+
+
+
+
+        
+        
+        
+        </section>
+        </section>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 YuQing Xie
+  </footer>
+</body>
+</html>
