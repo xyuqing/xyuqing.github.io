@@ -1,0 +1,40 @@
+!location = "../misc"
+!name = "./index.html"
+
+!inserthtml = "./head.html"
+<body>
+    !inserthtml = "./header.html"
+    <main>
+      <section width="100%">
+        <h1>Hobbies</h1>
+        <p>
+          <h3>Coming soon!</h3>
+          Over the years, I've accumulated many hobbies. These days, I usually spend my free time at the bouldering gym, playing pickup soccer, or running around Boston area. I also enjoy singing/playing guitar, chess, and cubing.
+        </p>
+      </section>
+      <div class="container">
+        <section>
+          <h2>Soccer</h2>
+        </section>
+        <section>
+          <h2>Climbing</h2>
+        </section>
+      </div>
+      <div class="container">
+        <section>
+          <h2>Running</h2>
+        </section>
+        <section>
+          <h2>Music</h2>
+        </section>
+      </div>
+      <div class="container">
+        <section>
+          <h2>Chess</h2>
+        </section>
+        <section>
+          <h2>Cubing</h2>
+        </section>
+      </div>
+  </main>
+</body>

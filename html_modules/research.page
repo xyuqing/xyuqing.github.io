@@ -5,17 +5,28 @@
 <body>
     !inserthtml = "./header.html"
     <main>
-    <div class="container">
-      !inserthtml = "./profile-sidebar.html"
-      <div class="maincontent">
-        <section id="about">
-          <h1>Publications</h1>
+    <!-- <div class="container"> -->
+      <!-- !inserthtml = "./profile-sidebar.html" -->
+      <div width="100%">
+        <section id="research">
+          <h1>Research</h1>
           <p>
-            Coming soon! Please see my <a href="https://scholar.google.com/citations?user=xNMw5dIAAAAJ&hl=en">Google Scholar</a>
+            During my PhD, I have focused on understanding the theoretical limits of equivariant neural networks. My work includes studying how to handle different forms of symmetry breaking, analyzing asymptotic trade-offs between runtime and expressivity for core operations, and investigating loss landscape geometry of equivariant networks. Recently, I have also become interested in neural quantum states and the representation of antisymmetric functions.
           </p>
+          <p>
+            More broadly, I am driven by a fundamental curiosity. I enjoy the process of distilling the essence of some phenomenon in a complex system, and then thoroughly analyzing, understanding, and generalizing it.
+          </p>
+        </section>
+        <section id="publications">
+          <h2>Publications</h2>
+          <p>
+            Please also see my <a href="https://scholar.google.com/citations?user=xNMw5dIAAAAJ&hl=en">Google Scholar</a>.
+          </p>
+          <br/>
+
           !inserthtml = "../bibliography/bibliography.html"
         </section>
       </div>
-    </div>
+    <!-- </div> -->
   </main>
 </body>
